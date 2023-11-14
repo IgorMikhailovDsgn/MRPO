@@ -1,0 +1,38 @@
+{
+  "database": {
+    "tables": {
+      "waiters": [
+        {
+          "id": "2",
+          "name": "Jane Smith",
+          "birthdate": "1985-10-20",
+          "phone": "9876543210"
+        },
+        {
+          "id": "3",
+          "name": "Jane",
+          "phone": 12345,
+          "birthdate": "2003-05-11"
+        },
+        {
+          "name": "Paul",
+          "phone": 12345,
+          "birthdate": "2003-05-11",
+          "id": "4"
+        }
+      ],
+      "orders": [
+        {
+          "id": "1",
+          "waiter_id": "1",
+          "table_number": "5"
+        },
+        {
+          "id": "2",
+          "waiter_id": "2",
+          "table_number": "3"
+        }
+      ]
+    }
+  }
+}
